@@ -162,14 +162,31 @@ $('#introduce').css({height:0}).animate({height:300},2000);
   $("#top").click(function(){
      $('html,body').animate({scrollTop:$("#navtop").offset().top},1500)
   })
+
+
+
+
+   var index=0;
+    var word1=$("#w0").html();
+    var word2=$("#w1").html();
+    var word3=$("#w2").html();
+    function type(){
+       if(index>200){
+          index=0
+         }
+         document.getElementById("aa").innerText = word1.substring(0,index++);
+         document.getElementById("bb").innerText = word2.substring(0,index++);
+         document.getElementById("cc").innerText = word3.substring(0,index++);
+         
+    }
+    setInterval(type, 300);
+
+
+
+
+
+
 });
-
-
-
-
-
-
-
 
  
    
