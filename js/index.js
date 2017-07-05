@@ -301,6 +301,10 @@ browserRedirect();
   })
 
 
+
+
+
+
    var index=0;
     var word1=$("#w0").html();
     var word2=$("#w1").html();
@@ -317,8 +321,10 @@ browserRedirect();
     setInterval(type, 300);
 
 
+
 });
 
  
    
+
 
