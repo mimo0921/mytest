@@ -148,36 +148,13 @@ function browserRedirect() {
             $(this).css({
             "transform":"translate(0,0)",
           "opacity":1  
-       })
+        })
                 b=false;
             })
         }
         })
 
-    }
-}
-browserRedirect();
-
-
-
-
-  $("#navb").click(function(){
-     $('html,body').animate({scrollTop:$("#b").offset().top},1000)
-  })
-  $("#navc").click(function(){
-     $('html,body').animate({scrollTop:$("#c").offset().top},1000)
-  })
-  $("#navd").click(function(){
-    $('html,body').animate({scrollTop:$("#d").offset().top},1500)
-  })
-  $("#nave").click(function(){
-    $('html,body').animate({scrollTop:$("#e").offset().top},1500)
-  })
-  $("#top").click(function(){
-     $('html,body').animate({scrollTop:$("#navtop").offset().top},1500)
-  })
-
-
+    }else{
 
 //pc端动效修改
 var slide11=$(".slide11");    
@@ -207,8 +184,7 @@ var slide11=$(".slide11");
 
 
 
-    var slide2=$(".slide2");    
-  
+  var slide2=$(".slide2");    
   for(var i=0;i<4;i++){
      var deg2=i*90;
      $("<div class='item2'></div>")
@@ -299,6 +275,32 @@ var slide11=$(".slide11");
 
 
 
+
+
+    }
+}
+browserRedirect();
+
+
+
+
+  $("#navb").click(function(){
+     $('html,body').animate({scrollTop:$("#b").offset().top},1000)
+  })
+  $("#navc").click(function(){
+     $('html,body').animate({scrollTop:$("#c").offset().top},1000)
+  })
+  $("#navd").click(function(){
+    $('html,body').animate({scrollTop:$("#d").offset().top},1500)
+  })
+  $("#nave").click(function(){
+    $('html,body').animate({scrollTop:$("#e").offset().top},1500)
+  })
+  $("#top").click(function(){
+     $('html,body').animate({scrollTop:$("#navtop").offset().top},1500)
+  })
+
+
    var index=0;
     var word1=$("#w0").html();
     var word2=$("#w1").html();
@@ -314,19 +316,9 @@ var slide11=$(".slide11");
     }
     setInterval(type, 300);
 
+
 });
 
  
    
-
-
-
-
-
-
-
-
-
-
-
 
