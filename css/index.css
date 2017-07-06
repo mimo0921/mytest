@@ -1,6 +1,6 @@
-html{height:100vh;width:95vw;}
+html{height:100vh;width:100vw;}
 body{border:none;font-size:16px;font-family:"黑体";height:100vh;width:100vw;background:#000;color:#fff;
- resize: none;overflow-x: hidden} 
+ overflow-x: hidden} 
 .nav{color:#717171;}
 .navbar{margin:0;border:none;border-radius: 0}
 .mypic{width:7rem;height:7rem;}
@@ -28,7 +28,7 @@ body{border:none;font-size:16px;font-family:"黑体";height:100vh;width:100vw;ba
 .team{height:517px;width:100%;background-color: #f04949;color:#fff;margin-top:30px}
 .team h3{margin-top:40px;}
 .mmgg{margin-top:40px}
-.footer{height:auto;width:100%;background:url(../images/shapes-light.svg) no-repeat center center #ededed;background-size:cover;color:black;}
+.footer{height:auto;width:100vw;background:url(../images/shapes-light.svg) no-repeat center center #ededed;background-size:cover;color:black;}
 .footer .txt{margin-top:70px;}
 .txt img{margin-bottom:20px;}
 .txt a{color:#fff;}
@@ -38,7 +38,7 @@ body{border:none;font-size:16px;font-family:"黑体";height:100vh;width:100vw;ba
 .skill .cir{display:inline-block;transition:transform 0.3s;background:#555;color:#fff;font-size:2.4rem;}
 .skill .cir{width:6rem;height:6rem;border-radius: 50%;margin:3rem 0;line-height:6rem;}
 .glyphicon-plus:before{display:none;}
-.bfb{color:#765fad}
+.bfb{color:#765fad;font-size:2rem;}
 .thumbnail{background:#5b8dd2;}
 .slide11{ width:25rem; height:12rem; transform-style:preserve-3d; perspective:4000px; }
 .item11{ position: relative;width:100%; height:100%; position:absolute; left:0; top:0; transition:transform 1s;}
@@ -52,7 +52,6 @@ body{border:none;font-size:16px;font-family:"黑体";height:100vh;width:100vw;ba
 .dtjh{margin:10rem 0 13rem 0;}
 .dtjh .main1_bot{margin-bottom:2rem;}
 .wzym{margin-top:3rem;}
-
 #top{background:#000}
 .sys{width:90px;}
 .zhedang{z-index:99;position: absolute;right:-6rem;top:0;background:#222222;width:12rem;height:7rem}
@@ -61,8 +60,8 @@ body{border:none;font-size:16px;font-family:"黑体";height:100vh;width:100vw;ba
 @media (min-width: 768px) { 
 .skill .col-xs-2{margin:1rem 0;}
 .mg-le{margin:2rem 0rem;}
-
 }
+
 @media (max-width: 768px) { 
 .skill .col-xs-2{margin:1rem 0;}
 .banner img{width:100%;height:20rem;}
@@ -77,6 +76,7 @@ body{border:none;font-size:16px;font-family:"黑体";height:100vh;width:100vw;ba
 .footer .txt{margin-top:10px;}
 .slide11,.slide2,#box,#pic{width:20rem;height:10rem;}
 .item3{width:4rem;height:2rem}
+.skill .col-xs-2{margin-left:2rem;}
 .bfb{margin-left:2rem;}
 .zhedang{display: none}
 @media (min-width: 975px) { 
