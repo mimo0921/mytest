@@ -244,7 +244,7 @@ var slide11=$(".slide11");
                 "background-position": x * (-47.8) + "px " + y * (-23.8) + "px"
             }).appendTo(oPic);
         }
-    var b=false;
+     var b=false;
        
 
     oPic.click(function(){
@@ -270,16 +270,16 @@ var slide11=$(".slide11");
             })
         }
         })
-
-
-
-
-
-
-
     }
 }
+
 browserRedirect();
+
+window.onresize=function(){
+  browserRedirect();
+
+}
+
 
 
 
@@ -326,5 +326,15 @@ browserRedirect();
 
  
    
+
+
+
+
+
+
+
+
+
+
 
 
